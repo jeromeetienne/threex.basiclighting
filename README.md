@@ -34,7 +34,6 @@ then you add that in your html
 <script src="bower_components/threex.basiclighting/threex.basiclighting.js"></script>
 ```
 
-
 ## How to Use It
 
 create a three point lighting
@@ -51,3 +50,6 @@ var lighting	= new THREEx.SunSetLighting()
 scene.add(lighting)
 ```
 
+## Possible Improvements
+* do a day light, night light
+  * a smooth transition between the two would be even better
