@@ -24,7 +24,7 @@ It shows a demo of it.
 
 A Screenshot
 ============
-[![screenshot](https://raw.githubusercontent.com/jeromeetienne/threex.basiclighting/master/examples/images/screenshot-threex-basiclighting-512x512.jpg)](http://jeromeetienne.github.io/threex.crates/examples/demo.html)
+[![screenshot](https://raw.githubusercontent.com/jeromeetienne/threex.basiclighting/master/examples/images/screenshot-threex-basiclighting-512x512.jpg)](http://jeromeetienne.github.io/threex.basiclighting/examples/demo.html)
 
 How To Install It
 =================
