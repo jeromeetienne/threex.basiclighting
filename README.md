@@ -5,14 +5,6 @@ the typical [three point lighting](http://en.wikipedia.org/wiki/Three-point_ligh
 or a sunset lighting. Nothing big or special in this extension.
 This is mainly educational purpose or for starting your project fast.
 
-Here is the basic example 
-[live](http://jeromeetienne.github.io/threex.basiclighting/examples/basic.html)
- and its 
-[source](https://github.com/jeromeetienne/threex/blob/master/src/threex.basiclighting/examples/basic.html).
-There is a [demo live](http://jeromeetienne.github.io/threex.basiclighting/examples/demo.html)
- and its 
-[source](https://github.com/jeromeetienne/threex/blob/master/src/threex.basiclighting/examples/demo.html).
-
 Show Don't Tell
 ===============
 * [examples/basic.html](http://jeromeetienne.github.io/threex.basiclighting/examples/basic.html)
