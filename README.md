@@ -6,12 +6,25 @@ or a sunset lighting. Nothing big or special in this extension.
 This is mainly educational purpose or for starting your project fast.
 
 Here is the basic example 
-[live](http://jeromeetienne.github.io/threex/src/threex.basiclighting/examples/basic.html)
+[live](http://jeromeetienne.github.io/threex.basiclighting/examples/basic.html)
  and its 
 [source](https://github.com/jeromeetienne/threex/blob/master/src/threex.basiclighting/examples/basic.html).
-There is a [demo live](http://jeromeetienne.github.io/threex/src/threex.basiclighting/examples/demo.html)
+There is a [demo live](http://jeromeetienne.github.io/threex.basiclighting/examples/demo.html)
  and its 
 [source](https://github.com/jeromeetienne/threex/blob/master/src/threex.basiclighting/examples/demo.html).
+
+Show Don't Tell
+===============
+* [examples/basic.html](http://jeromeetienne.github.io/threex.basiclighting/examples/basic.html)
+\[[view source](https://github.com/jeromeetienne/threex.basiclighting/blob/master/examples/basic.html)\] :
+It shows a basic example of extension.
+* [examples/demo.html](http://jeromeetienne.github.io/threex.basiclighting/examples/demo.html)
+\[[view source](https://github.com/jeromeetienne/threex.basiclighting/blob/master/examples/demo.html)\] :
+It shows a demo of it.
+
+A Screenshot
+============
+[![screenshot](https://raw.githubusercontent.com/jeromeetienne/threex.basiclighting/master/examples/images/screenshot-threex-basiclighting-512x512.jpg)](http://jeromeetienne.github.io/threex.crates/examples/demo.html)
 
 How To Install It
 =================
