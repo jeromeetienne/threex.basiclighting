@@ -1,6 +1,6 @@
 threex.lighting
 ===============
-threex.lighting is a three.js extension which provides 
+threex.lighting is a [threex](http://threejsgames.com/extensions/) game extension for three.js. It provides 
 a [three point lighting](http://en.wikipedia.org/wiki/Three-point_lighting). 
 It is a typical lighting used in movie:
 A key light on the front-left, a back light in the back and a fill light on the front right.
