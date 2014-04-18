@@ -1,12 +1,13 @@
-threex.lighting
+threex.basiclighting
 ===============
-threex.lighting is a [threex game extension for three.js](http://www.threejsgames.com/extensions/). It provides 
+threex.basiclighting is a [threex game extension for three.js](http://www.threejsgames.com/extensions/). It provides 
 a [three point lighting](http://en.wikipedia.org/wiki/Three-point_lighting). 
-It is a typical lighting used in movie:
-A key light on the front-left, a back light in the back and a fill light on the front right.
-It is perfect if you dunno much about lighting and want to add lights in your games.
+It is the lighting used in movies:
+A key light on the front-left, a back light in the back and a fill light on the front right, nothing fancy.
+It is perfect if you dunno much about lighting and you want to add lights in your games.
 Nothing big or special in this extension.
-This is mainly educational purpose or for starting your project fast.
+This is mainly for educational purposes or for starting your project fast.
+
 
 Show Don't Tell
 ===============
