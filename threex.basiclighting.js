@@ -5,20 +5,28 @@ var THREEx = THREEx || {}
  * @return {THREE.Object3D} container for the 3 lights
  */
 THREEx.ThreePointsLighting	= function(){
-	var object3d	= new THREE.Object3D()
-	// add a ambient light
-	var light	= new THREE.AmbientLight( 0x020202 )
-	object3d.add( light )
-	// add a light in front
-	var light	= new THREE.DirectionalLight('white', 1)
-	light.position.set(0.5, 0.5, 2)
-	object3d.add( light )
-	// add a light behind
-	var light	= new THREE.DirectionalLight('white', 0.75)
-	light.position.set(-0.5, -0.5, -2)
-	object3d.add( light )
+	var container	= new THREE.Object3D()
+
+	var object3d	= new THREE.AmbientLight(0x101010)
+	object3d.name	= 'Ambient light'
+	container.add(object3d)
+
+	var object3d	= new THREE.DirectionalLight('white', 0.225)
+	object3d.position.set(2.6,1,3)
+	object3d.name	= 'Back light'
+	container.add(object3d)
+
+	var object3d	= new THREE.DirectionalLight('white', 0.375)
+	object3d.position.set(-2, -1, 0)
+	object3d.name 	= 'Key light'
+	container.add(object3d)
+
+	var object3d	= new THREE.DirectionalLight('white', 0.75)
+	object3d.position.set(3, 3, 2)
+	object3d.name	= 'Fill light'
+	container.add(object3d)
 	
-	return object3d
+	return container
 }
 
 /**

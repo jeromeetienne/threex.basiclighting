@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <script src='vendor/three.js/build/three.min.js'></script>
 <script src='../threex.basiclighting.js'></script>
-<body style='margin: 0px; background-color: #bbbbbb; overflow: hidden;'><script>
+<body style='margin: 0px; background-color: #000000; overflow: hidden;'><script>
 	var renderer	= new THREE.WebGLRenderer({
 		antialias	: true
 	});
@@ -18,23 +18,31 @@
 	//////////////////////////////////////////////////////////////////////////////////
 
 	;(function(){
-		// add a ambient light
-		var light	= new THREE.AmbientLight( 0x020202 )
-		scene.add( light )
-		// add a light in front
-		var light	= new THREE.DirectionalLight('white', 1)
-		light.position.set(0.5, 0.5, 2)
-		scene.add( light )
-		// add a light behind
-		var light	= new THREE.DirectionalLight('white', 0.75)
-		light.position.set(-0.5, -0.5, -2)
-		scene.add( light )		
+		var object3d	= new THREE.AmbientLight(0x101010)
+		object3d.name	= 'Ambient light'
+		scene.add(object3d)
+
+		var object3d	= new THREE.DirectionalLight('white', 0.225)
+		object3d.position.set(2.6,1,3)
+		object3d.name	= 'Back light'
+		scene.add(object3d)
+
+		var object3d	= new THREE.DirectionalLight('white', 0.375)
+		object3d.position.set(-2, -1, 0)
+		object3d.name 	= 'Key light'
+		scene.add(object3d)
+
+		var object3d	= new THREE.DirectionalLight('white', 0.5*1)
+		object3d.position.set(3, 3, 2)
+		object3d.name	= 'Fill light'
+		scene.add(object3d)		
 	})()
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		add an object and make it move					//
 	//////////////////////////////////////////////////////////////////////////////////	
 	var geometry	= new THREE.TorusKnotGeometry(0.27, 0.1, 128, 32);
+	var geometry	= new THREE.TorusGeometry(0.5-0.12,0.12, 16, 32)
 	var material	= new THREE.MeshPhongMaterial({
 		color	: 'white',
 	});
@@ -42,8 +50,8 @@
 	scene.add( mesh );
 	
 	updateFcts.push(function(delta, now){
-		// mesh.rotation.x += 1 * delta;
-		// mesh.rotation.y += 2 * delta;		
+		mesh.rotation.x += 1 * delta;
+		mesh.rotation.y += 2 * delta;		
 	})
 	
 	//////////////////////////////////////////////////////////////////////////////////
